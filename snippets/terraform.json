@@ -4892,10 +4892,10 @@
             "   name = \"worker1\"",
     		"   }]",
     		" 	webhook = [{",
-    		"		level = \"Normal\""
-    		"		type = \"slack\""
-    		"		url = \"\""
-  			"	}]"
+    		"		level = \"Normal\"",
+    		"		type = \"slack\"",
+    		"		url = \"\"",
+  			"	}]",
             "   machine_type    = \"free\"",
             "   isolation       = \"public\"",
             "   public_vlan_id  = \"${ibm_network_vlan.myResourceName.id}\"",
